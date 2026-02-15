@@ -1,0 +1,15 @@
+[project]
+name = "vot"
+version = "0.1.0"
+description = "Research and development for Visualization of Thoughts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.0",
+    "plotly[express]>=6.5.2",
+    "scikit-learn>=1.8.0",
+]
+
+[tool.setuptools]
+packages = ["vot_utils"]
