@@ -11,3 +11,4 @@ wheels/
 
 # documents
 papers/
+*.pdf
