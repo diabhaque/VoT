@@ -8,6 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+.venv310
+.venv37
 
 # documents
 papers/
