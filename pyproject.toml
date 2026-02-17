@@ -5,10 +5,13 @@ description = "Research and development for Visualization of Thoughts"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fairscale>=0.4.13",
     "matplotlib>=3.10.8",
     "pandas>=3.0.0",
     "plotly[express]>=6.5.2",
     "scikit-learn>=1.8.0",
+    "tiktoken>=0.12.0",
+    "torch>=2.10.0",
 ]
 
 [tool.setuptools]
