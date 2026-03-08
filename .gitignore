@@ -15,8 +15,8 @@ wheels/
 papers/
 *.pdf
 
-# references
-references/
-
 # checkpoints
 .llama/
+
+# data
+data/

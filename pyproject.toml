@@ -5,14 +5,18 @@ description = "Research and development for Visualization of Thoughts"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "diffusers>=0.37.0",
     "fairscale>=0.4.13",
+    "ipykernel>=7.2.0",
     "matplotlib>=3.10.8",
     "pandas>=3.0.0",
     "plotly[express]>=6.5.2",
     "scikit-learn>=1.8.0",
     "tiktoken>=0.12.0",
+    "timm>=1.0.25",
     "torch>=2.10.0",
+    "torchvision>=0.25.0",
 ]
 
 [tool.setuptools]
-packages = ["vot_utils"]
+packages = ["vot_utils", "references"]
